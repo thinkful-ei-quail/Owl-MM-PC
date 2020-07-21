@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of working? UI 1`] = `
+<div>
+  <li>
+    Axe Kubicka
+  </li>
+  <li>
+    1/30/2019, 5:48:04 AM
+     
+    Hello world
+  </li>
+</div>
+`;

@@ -6,7 +6,7 @@ function Participants(props) {
    let list = props.persons.map((person) => {
         if (person.inSession) {
             return (
-                <ul className="person">
+                <ul key={person.name} className="person">
                     <li>{person.name}</li>
                     <li>{person.avatar}</li>
                     <li>{person.onStage}</li>
