@@ -1,68 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Project Brief
 
-## Available Scripts
+You should work one section at a time, creating components and writing smoke and snapshot tests. The components don't need to be interactive, but they do need to work with the provided data, rather than hard-coding every single DOM element. Don't worry about getting pixel-perfect styling, but try to retain something of the look and feel of the original elements.
 
-In the project directory, you can run:
+## Section 1: The participant list
 
-### `npm start`
+The participant list shows all of the current, or former, participants in the session. For each participant, you should show their name, avatar, and whether they are currently in the session. Participants who are in the session should be shown before participants who have left.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Section 2: The stage
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The stage shows the names, and avatars of everyone who is on the stage. We'll ignore the video element at the moment, and imagine that everyone has their camera turned off. Try to recreate the tiling behavior as participants join and leave using your Flexbox skills.
 
-### `npm test`
+## Component 3: The chat log
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The chat log should show a list of chat messages and other events (thumbs up, joining, leaving, etc.) which take place during the session. Each item should show when the event took place, and who carried it out.
