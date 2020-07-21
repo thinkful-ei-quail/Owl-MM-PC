@@ -1,4 +1,4 @@
-### Project Brief
+# Project Brief
 
 You should work one section at a time, creating components and writing smoke and snapshot tests. The components don't need to be interactive, but they do need to work with the provided data, rather than hard-coding every single DOM element. Don't worry about getting pixel-perfect styling, but try to retain something of the look and feel of the original elements.
 
