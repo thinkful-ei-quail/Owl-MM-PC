@@ -4,7 +4,7 @@ import chatEvents from './chatEvents';
 import participants from './participantsDummy';
 
 
-function chatLog(props) {
+function chatEvent(props) {
     // for each object in chatEvents participants are referenced by participantId, we want to display the participant Name
 
     //filter through participantsDummy and find where chatEvents.ParticipantId === participantsDummy.id
@@ -30,4 +30,4 @@ function chatLog(props) {
 }
 
 
-export default chatLog;
+export default chatEvent;

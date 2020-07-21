@@ -1,8 +1,15 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import ChatEvent from './Chat';
+import Stage from './Stage';
+import Participants from './Participants';
+
 function App() {
   return (
     <main className='App'>
-      {/* content goes here */}
+      {Participants()}
+      {Stage()}
+      {ChatEvent()}
     </main>
   );
 }
