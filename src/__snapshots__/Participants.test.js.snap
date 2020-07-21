@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of working UI 1`] = `
+<ul
+  className="participantsList"
+>
+  <li>
+    lip
+  </li>
+  <li>
+    imageFile
+  </li>
+  <li>
+    true
+  </li>
+</ul>
+`;
