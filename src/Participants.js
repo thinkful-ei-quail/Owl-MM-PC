@@ -3,17 +3,22 @@ import participants from './participantsDummy';
 import './Participants.css';
 
 function Participants(props) {
-    props.map((person, inSession) => {
+   let list = props.persons.map((person) => {
         if (person.inSession) {
             return (
-                <ul className="participantsList">
+                <ul className="person">
                     <li>{person.name}</li>
                     <li>{person.avatar}</li>
                     <li>{person.onStage}</li>
                 </ul>
             )
         }
-    }) 
+    })
+    return (
+        <div>
+            {list}
+        </div>
+    );
 };
 
 

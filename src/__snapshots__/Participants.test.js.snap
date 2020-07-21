@@ -1,17 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshot of working UI 1`] = `
-<ul
-  className="participantsList"
->
-  <li>
-    lip
-  </li>
-  <li>
-    imageFile
-  </li>
-  <li>
-    true
-  </li>
-</ul>
+exports[`smoke and snapshot of participants.js snapshot of working UI 1`] = `
+<div>
+  <ul
+    className="person"
+  >
+    <li>
+      lip
+    </li>
+    <li>
+      imageFile
+    </li>
+    <li>
+      true
+    </li>
+  </ul>
+</div>
 `;
+
+exports[`smoke and snapshot of participants.js snapshot of working UI 2`] = `<div />`;
