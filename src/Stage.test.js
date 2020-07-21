@@ -8,3 +8,9 @@ it('generate the stage elements',()=>{
     ReactDOM.render(<Stage avatar="testimage" name="Matt" />,div)
     ReactDOM.unmountComponentAtNode(div);
 });
+it('snapshot of working UI', () => {
+    const tree = renderer
+        .create(<Stage avatar="testimage" name="Matt" />)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
+});

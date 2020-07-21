@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of working UI 1`] = `
+<div>
+  <img
+    src="testimage"
+  />
+  <p>
+    Matt
+  </p>
+</div>
+`;
